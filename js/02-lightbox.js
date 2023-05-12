@@ -18,7 +18,8 @@ return galleryItems.map(({ preview, original, description }) => {
 const lightbox = new SimpleLightbox(".gallery a", {
   captionType: 'attr',
   captionsData: 'alt',
-  captionDelay: 250,
+    captionDelay: 250,
+  captionPosition:'bottom',
 });
 
 
